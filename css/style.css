@@ -186,3 +186,58 @@ h3{
     height: 300px;
     margin: 2%;
 }
+
+
+
+/* footer */
+
+footer {
+    background-color: #444;
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 1rem 0;
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    font-family: 'Roboto', cursive;
+    color: white;
+}
+
+.footer-section p, .footer-section ul {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #ff6347;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
