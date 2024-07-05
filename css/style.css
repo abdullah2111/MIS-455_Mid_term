@@ -82,7 +82,6 @@ h3{
     padding: 10%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     text-align: left;
 }
@@ -134,6 +133,10 @@ h3{
     height: auto;
 }
 
+.sec-1 p{
+    padding: 0 6%;
+}
+
 .sec-1{
     margin-bottom: 30px;
 }
@@ -142,6 +145,7 @@ h3{
     padding: 6%;
     display: flex;
     justify-content: space-between;
+    
 }
 .sec-2 img {
     width: 800px;
@@ -158,4 +162,27 @@ h3{
 .best-seller img{
     width: 500px;
     height: 500px;
+    margin-bottom: 2%;
+}
+
+
+.pic-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.new-araival img{
+ width: 1200px;
+}
+
+
+
+.offer img{
+    width: 300px;
+    height: 300px;
+    margin: 2%;
 }
