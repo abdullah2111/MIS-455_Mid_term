@@ -250,13 +250,20 @@ footer {
 
 
 /* Product Page */
+.title{
+    margin-bottom: 5%;
+}
+
+.product-category h2{
+    margin-bottom: 2%;
+}
 .products {
     padding: 2rem;
     text-align: center;
 }
 
 .product-category {
-    margin-bottom: 2rem;
+    margin-bottom: 10%;
 }
 
 .product-grid {
